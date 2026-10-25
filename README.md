@@ -1,7 +1,5 @@
 <h1 align="center">Yashish Khurana</h1>
 
-<h3 align="center">Quantitative research on crypto perpetuals</h3>
-
 <p align="center">
   <a href="https://x.com/0xYashish"><img src="https://img.shields.io/badge/X-@0xYashish-000?logo=x&logoColor=white" alt="X"></a>
   <a href="https://t.me/bullishbeers"><img src="https://img.shields.io/badge/Telegram-@bullishbeers-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
