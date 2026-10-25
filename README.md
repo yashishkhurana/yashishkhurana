@@ -1,6 +1,6 @@
 <h1 align="center">Yashish Khurana</h1>
 
-<h3 align="center">Quantitative research on crypto perpetuals, mid-frequency</h3>
+<h3 align="center">Quantitative research on crypto perpetuals</h3>
 
 <p align="center">
   <a href="https://x.com/0xYashish"><img src="https://img.shields.io/badge/X-@0xYashish-000?logo=x&logoColor=white" alt="X"></a>
@@ -8,27 +8,26 @@
   <a href="mailto:yashishkhurana@gmail.com"><img src="https://img.shields.io/badge/Email-yashishkhurana@gmail.com-EA4335?logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-Ex cofounder Lucidly Labs (DeFi vaults, $600K seed) · Ex cofounder Aspen (YC F26 shortlist) · Risk Council, infiniFi
+Previously cofounder Lucidly Labs (DeFi vaults, $600K seed) · Ex cofounder Aspen (YC F26 shortlist) · Risk Council, infiniFi
 
-- Ran delta-neutral, basis, funding-rate and leverage-loop strategies with real capital for three years. Now doing the same work as research: hypothesis, data, honest backtest, write-up.
-- Building a mid-frequency research stack on perps in the open: own order-book collector, backtester with fees, slippage, funding and delistings, validation layer, one research note per strategy.
-- Looking for a quantitative researcher seat at a crypto-native desk, under a senior researcher. Remote or NYC.
+- Ran delta neutral, basis, funding rate and leverage loop strategies with real capital for three years. Now doing the same work as research: hypothesis, data, backtest, simulations.
+- Building a mid frequency research stack on perps: own orderbook collector, backtester with fees, slippage and funding, validation layer per strategy.
+- Looking for a quantitative researcher role at a crypto native desk.
 - Solved all Wintermute Alpha Challenge 2026 cases, among the first to do so ([post](https://x.com/0xYashish/status/2092172553695662566)).
 
 ## Featured work
 
 | | |
 |---|---|
-| [**quant-research**](https://github.com/yashishkhurana/quant-research) | Mid-frequency research stack on Binance, Bybit and Hyperliquid perps: L2 book and trade collector, Parquet store, backtester with fees, slippage, funding and forced exits on delisting (74 tests), point-in-time universe including delisted contracts, capacity caps with square-root impact. Four notes so far, all negative results stated with their numbers: [hedged funding carry on Binance](https://github.com/yashishkhurana/quant-research/blob/main/notes/01_carry.md) doesn't pay after costs and the coins that can hold size don't pay at all; [cross-venue funding](https://github.com/yashishkhurana/quant-research/blob/main/notes/02_mvenue.md) is a real spread with under $200k of capacity; a [regime filter](https://github.com/yashishkhurana/quant-research/blob/main/notes/04_regime.md) finds almost nothing to switch on after January 2025, and a [random forest](https://github.com/yashishkhurana/quant-research/blob/main/notes/05_predict.md) only rediscovers persistence. Parameters for the cross-venue and regime studies were committed before each run. |
 | [**lucidly-portfolio**](https://github.com/yashishkhurana/lucidly-portfolio) | Strategies I designed and built at Lucidly Labs, 2024–26, rebuilt from scratch with reproducible backtests (`build_all.py`, 26 tests): a siUSD/USDC leverage loop and a USDC lending cluster on Morpho Blue replayed on 93 days of archive data, a hedged WBTC/WETH CL market maker with fees measured from the pool's swap events, and a PT-sENA / ENA-short fixed-yield book on Pendle and Hyperliquid data, reported as a distribution over every 88-day window. One page corrects my own published work: re-measuring CL fees per swap gave 23 EURC against the 75 my public EURC/USDC backtest had accrued. |
 | [**wintermute-alpha-challenge**](https://github.com/yashishkhurana/wintermute-alpha-challenge-2026) | Worked solutions to every case in the Wintermute Alpha Challenge 2026, one write-up per case: the question, the reasoning, the answer, and what I got wrong first. |
+| [**quant-research**](https://github.com/yashishkhurana/quant-research) | Mid frequency research stack on Binance, Bybit and Hyperliquid perps: L2 book and trade collector, Parquet store, backtester with fees, slippage, funding and forced exits on delisting, point in time universe including delisted contracts, capacity caps with square root impact. Results stated with their numbers: [hedged funding carry on Binance](https://github.com/yashishkhurana/quant-research/blob/main/notes/01_carry.md) doesn't pay after costs and the coins that can hold size don't pay at all; [cross-venue funding](https://github.com/yashishkhurana/quant-research/blob/main/notes/02_mvenue.md) is a real spread with under $200k of capacity; a [regime filter](https://github.com/yashishkhurana/quant-research/blob/main/notes/04_regime.md) finds almost nothing to switch on after January 2025, and a [random forest](https://github.com/yashishkhurana/quant-research/blob/main/notes/05_predict.md) only rediscovers persistence. Parameters for the cross-venue and regime studies were committed before each run. |
 
 ## Background
 
-- **Lucidly Labs**, cofounder and director, 2023–2026. DeFi earn vaults running on-chain market-making, delta-neutral and leverage-looping strategies. $600K seed from Skycatcher; finalist, Base Batches 002 and Hadron FC Katana.
-- **Aspen**, cofounder, 2026. Agentic harness that composes and deploys multi-protocol DeFi strategies in one click. YC F26 shortlist.
-- **infiniFi**, Risk Council member since Nov 2025. Strategy, counterparty and operational risk review.
-- Early DeFi user on Arbitrum and Optimism from 2020; angel in 20+ early-stage crypto projects via Brotherhood Ventures.
-- B.Arch, IIT Roorkee, 2024.
+- **Lucidly Labs**, cofounder, 2023–2026. DeFi earn vaults running onchain market making, delta neutral and leverage looping strategies. Backed by Skycatcher.xyz; finalists: Base Batches 002 and Hadron FC Katana.
+- **Aspen**, cofounder, 2026. Agentic harness that composes and deploys multi protocol DeFi strategies in one click. YC F26 shortlist.
+- **infiniFi**, Risk Council member. Strategy, counterparty and operational risk review.
+- Graduation: Engg, IIT Roorkee, 2019-2024.
 
 **Stack:** Python (pandas, NumPy, statsmodels, scikit-learn), TypeScript, Solidity, Solana. Exchange websockets and REST, Parquet, Dune.
