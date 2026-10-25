@@ -13,7 +13,7 @@ Previously cofounder Lucidly Labs (DeFi vaults, $600K seed) · Ex cofounder Aspe
 - Ran delta neutral, basis, funding rate and leverage loop strategies with real capital for three years. Now doing the same work as research: hypothesis, data, backtest, simulations.
 - Building a mid frequency research stack on perps: own orderbook collector, backtester with fees, slippage and funding, validation layer per strategy.
 - Looking for a quantitative researcher role at a crypto native desk.
-- Solved all Wintermute Alpha Challenge 2026 cases, among the first to do so ([post](https://x.com/0xYashish/status/2092172553695662566)).
+- Solved all Wintermute Alpha Challenge 2026 cases ([post](https://x.com/0xYashish/status/2092172553695662566)).
 
 ## Featured work
 
